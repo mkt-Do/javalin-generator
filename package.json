@@ -1,0 +1,22 @@
+{
+  "name": "javalin",
+  "version": "0.0.1",
+  "description": "Javalin Project Generator",
+  "main": "index.js",
+  "author": "mkt-Do",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.15.1",
+    "shelljs": "^0.8.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  },
+  "scripts": {
+    "start": "babel-node index.js"
+  },
+  "bin": {
+    "javalin": "babel-node index.js"
+  }
+}
